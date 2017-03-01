@@ -1,11 +1,4 @@
-/*created by Mostafa Zaghloul with a helper library called RedBot.h you can find 
- * it on this link https://github.com/sparkfun/RedBot 
- *--------------------------- thanks a million --------------------------------- 
- *you can find me on 
- *FaceBook::https://www.facebook.com/mostafa.zaghlol3
- *Twitter::https://twitter.com/Mostafazaghlul
- *to Contact for hardware or software questions 
- */
+
 #include <RedBot.h>
 
 RedBotSensor left_sen = RedBotSensor(A3);   
@@ -125,5 +118,3 @@ void back(){
   digitalWrite(in3, LOW);
   digitalWrite(in4, HIGH);
 }
-
-
